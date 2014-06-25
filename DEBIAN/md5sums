@@ -5,6 +5,5 @@ f7a1417d492a8c763cf7e0a464a3c7e3  usr/share/initramfs-tools/hooks/casper
 1cb6b304bd531304740f173a856b0f58  usr/share/initramfs-tools/scripts/casper
 0f987f9d0dd44698990923b7fc0c7286  usr/share/initramfs-tools/scripts/casper-bottom/05mountpoints
 d68edac8a395f748c4b25624881ca7ba  usr/share/initramfs-tools/scripts/casper-bottom/13swap
-0f8db436d1aaf3c7c717d80b9d1b255d  usr/share/initramfs-tools/scripts/casper-bottom/25adduser
 3eb24b71aa158100100257e5b92f846e  usr/share/initramfs-tools/scripts/casper-functions
 8cab48f167349709584130eef3afd12a  usr/share/initramfs-tools/scripts/casper-helpers
