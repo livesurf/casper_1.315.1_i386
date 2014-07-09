@@ -10,10 +10,5 @@ ARCH=`grep '^Architecture:' DEBIAN/control| cut -d ' ' -f 2`
 
 cd -
 
-DIR=$( mktemp -d )
-rsync -axHAXS --cvs-exclude root "$DIR"
-
-fakeroot dpkg-deb -Z lzma -b "$DIR/root" ../casper-tiny_${VER}_${ARCH}_$(date +%Y-%m-%d_%H:%M).deb 
-
-rm -rf "$DIR"
+fakeroot dpkg-deb -Z lzma -b root ../casper-tiny_${VER}_${ARCH}_$(date +%Y-%m-%d_%H:%M).deb 
 
